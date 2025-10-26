@@ -6,28 +6,28 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 import logo from "../assets/image/logo.png";
-import './Style.css';
+import "./style.css"; // Import your custom CSS file
 
 const Footer = () => {
   return (
-
-     <footer>
-        {/* Logo */}
-      <div className="relative flex justify-center items-center text-center pt-24">
-        <img
-          className="w-[322.35px] h-[92.29px] scale-100"
+    
+   <footer>
+   <div className="flex justify-center items-center">
+     <img
+          className="w-[322.35px] h-[92.29px]"
           src={logo}
           alt="Logo"
         />
-      </div>
-    <section className="roatate bg-[#B33A2E] text-white">
-      {/* 🔺 Top Triangle using Tailwind transforms */}
-      
+   </div>
+     <section className="mt-5  text-white ">
+      {/* 🔻 V Shape Section */}
+      <div className=" "></div>
 
+      {/* Logo */}
      
 
       {/* Footer Content */}
-      <footer className="relative bg-[#B33A2E] mt-5 pt-16 pb-6">
+      <footer className="bg-[#B33A2E] pt-16 pb-6">
         <div className="container mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-5 gap-10">
           {/* Page */}
           <div>
@@ -61,7 +61,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* About Us */}
+          {/* About */}
           <div>
             <h3 className="font-semibold mb-4">About Us</h3>
             <p className="text-sm mb-2">
@@ -91,7 +91,7 @@ const Footer = () => {
         </p>
       </footer>
     </section>
-     </footer>
+   </footer>
   );
 };
 
