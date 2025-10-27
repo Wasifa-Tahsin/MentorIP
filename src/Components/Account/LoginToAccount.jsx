@@ -1,9 +1,10 @@
 import React from 'react';
 import { FaEye } from 'react-icons/fa';
+import { NavLink } from 'react-router';
 
 const LoginToAccount = () => {
   return (
-    <div className=" flex justify-center items-center mt-20 px-4">
+    <div className=" flex justify-center items-center mt-20 mb-20 px-4">
       <div className="w-full max-w-md bg-white p-8 rounded-lg shadow-md">
         {/* Title */}
         <h2 className="text-2xl font-semibold text-gray-600 text-center mb-2">
@@ -43,9 +44,9 @@ const LoginToAccount = () => {
               <input type="checkbox" className="w-4 h-4" />
               Remember Password
             </label>
-            <button type="button" className="text-gray-500 hover:underline">
+            <NavLink to='/forgetPassword'><button type="button" className="text-gray-500 hover:underline">
               Forget Password?
-            </button>
+            </button></NavLink>
           </div>
 
           {/* Sign In */}
@@ -57,12 +58,12 @@ const LoginToAccount = () => {
           </button>
 
           {/* Sign Up */}
-          <button
+         <NavLink to='/registerAccount'> <button
             type="button"
             className="text-[#1D4ED8] mt-2 hover:underline"
           >
             Sign Up
-          </button>
+          </button></NavLink>
         </form>
       </div>
     </div>

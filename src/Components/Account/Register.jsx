@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaEyeSlash } from 'react-icons/fa';
+import { NavLink } from 'react-router';
 
 
 const Register = () => {
@@ -81,12 +82,12 @@ const Register = () => {
         </button>
 
         {/* Sign In Link */}
-        <button
+       <NavLink to='/login'> <button
           type="button"
           className="mt-4 text-[#1D4ED8] hover:underline"
         >
           Sign In
-        </button>
+        </button></NavLink>
 
       </form>
     </div>

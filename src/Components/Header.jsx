@@ -3,6 +3,8 @@ import headerLogo from '../assets/image/headerLogo.png'
 import { IoSearchOutline } from 'react-icons/io5';
 
 import { MdEdit } from 'react-icons/md';
+import { LuUser } from 'react-icons/lu';
+import { NavLink } from 'react-router';
 
 const Header = () => {
     return (
@@ -22,7 +24,7 @@ const Header = () => {
             </div>
 
             <div>
-                <h2 className=' bg-gray-200 text-2xl py-1 px-3 rounded-full text-[#B14034]'>F</h2>
+                <NavLink to='/login'><h2 className=' bg-gray-200 text-2xl py-2 px-2 rounded-full text-[#B14034]'><LuUser className='' /></h2></NavLink>
             </div>
         </header>
     );

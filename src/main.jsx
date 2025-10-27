@@ -6,10 +6,14 @@ import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import Root from "./Components/Root/Root.jsx";
 import Home from "./Components/Home/Home.jsx";
-import Login from "./Components/Account/Login.jsx";
+
 import HomeLayout from "./Components/layout/HomeLayout.jsx";
 import Posts from "./Components/Posts/Posts.jsx";
 import AssignmentPage from "./Components/AllPAges.jsx/AssignmentPage.jsx";
+import LoginToAccount from "./Components/Account/LoginToAccount.jsx";
+import ForgetPassword from "./Components/Account/ForgetPassword.jsx";
+import Register from "./Components/Account/Register.jsx";
+import BangladeshPage from "./Components/AllPAges.jsx/BangladeshPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -21,12 +25,24 @@ const router = createBrowserRouter([
      
       {
         path: "/login",
-        Component: Login,
+        Component: LoginToAccount,
+      },
+      {
+        path:'/registerAccount',
+        Component:Register
+      },
+      {
+        path:'/forgetPassword',
+        Component:ForgetPassword
       },
       {
         path:'/assignment',
         Component:AssignmentPage
-      }
+      },
+      {
+        path:'/bangladesh',
+        Component:BangladeshPage
+      },
     ],
   },
 ]);

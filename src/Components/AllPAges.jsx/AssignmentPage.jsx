@@ -25,8 +25,9 @@ const AssignmentPage = () => {
         
         {/* Left Text Section */}
         <div className="text-left w-full md:w-1/2">
+        <span>5 posts</span>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-gray-900">
-            Assignment
+            Assignment <span className="text-green-400">•</span>
           </h2>
           <p className="text-gray-700 text-[15px] sm:text-[17px] md:text-[18px] leading-relaxed">
             We provide end-to-end legal support for Trademark, Patent & Design 
