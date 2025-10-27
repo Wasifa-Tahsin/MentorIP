@@ -4,7 +4,8 @@ const Post = ({ post }) => {
   const { title, image, author, location, date, category } = post;
 
   return (
-    <div className="max-w-sm bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 p-4">
+ <section>
+       <div className="max-w-sm bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 p-4">
       <img
         src={image}
         alt={title}
@@ -12,17 +13,24 @@ const Post = ({ post }) => {
       />
       <h2 className="text-left text-xl font-semibold mb-2">{title}</h2>
       <div className="flex items-center text-sm text-[#348BCA] mb-1 space-x-2">
-        <span className="font-medium text-[#348BCA]">{author}</span>
+        <span className="font-medium text-[#177BC2]">{author}</span>
         <span>•</span>
-        <span>{location}</span>
+        <span className='text-[#177BC2]'>{location}</span>
       </div>
-      <div className="text-xs text-[#348BCA] text-left mb-2">{date}</div>
+      <div className="text-xs text-[#177BC2] text-left mb-2">{date}</div>
       {category && (
-        <div className=" text-left  text-[#348BCA] text-xs font-semibold  rounded-full">
-          .{category.join(' . ')}
+        <div className=" text-left  text-[#177BC2] text-xs font-semibold  rounded-full">
+          . {category.join(' . ')}
         </div>
       )}
+
+
+      
     </div>
+
+    
+ </section>
+    
   );
 };
 
