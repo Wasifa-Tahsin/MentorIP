@@ -9,6 +9,7 @@ import Home from "./Components/Home/Home.jsx";
 import Login from "./Components/Account/Login.jsx";
 import HomeLayout from "./Components/layout/HomeLayout.jsx";
 import Posts from "./Components/Posts/Posts.jsx";
+import AssignmentPage from "./Components/AllPAges.jsx/AssignmentPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
         path: "/login",
         Component: Login,
       },
+      {
+        path:'/assignment',
+        Component:AssignmentPage
+      }
     ],
   },
 ]);
