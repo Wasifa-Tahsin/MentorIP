@@ -20,15 +20,11 @@ const Footer = () => {
         />
    </div>
      <section className="mt-5  text-white ">
-      {/* 🔻 V Shape Section */}
-      <div className=" "></div>
-
-      {/* Logo */}
      
 
       {/* Footer Content */}
       <footer className="bg-[#B33A2E] pt-16 pb-6">
-        <div className="container mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-5 gap-10">
+        <div className=" px-6 md:px-12 grid grid-cols-1 md:grid-cols-5 gap-10">
           {/* Page */}
           <div>
             <h3 className="font-semibold mb-4">Page</h3>
