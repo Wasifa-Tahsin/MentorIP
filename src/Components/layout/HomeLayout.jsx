@@ -7,6 +7,11 @@ import Patent from '../Pages/Patent';
 import Design from '../Pages/Design';
 import FAQ from '../Pages/FAQ';
 import IPR from '../Pages/IPR';
+import Assignment from '../Pages/Assignment';
+import IP from '../Pages/IP';
+import Bangladesh from '../Pages/Bangladesh';
+import IPNews from '../Pages/IPNews';
+import Registration from '../Pages/Registration';
 
 
 
@@ -26,6 +31,11 @@ const HomeLayout = () => {
           <Design></Design>
           <FAQ></FAQ>
           <IPR></IPR>
+          <Assignment></Assignment>
+          <IP></IP>
+          <Bangladesh></Bangladesh>
+          <IPNews></IPNews>
+          <Registration></Registration>
            
         </div>
     );
