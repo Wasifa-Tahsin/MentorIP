@@ -14,6 +14,8 @@ import LoginToAccount from "./Components/Account/LoginToAccount.jsx";
 import ForgetPassword from "./Components/Account/ForgetPassword.jsx";
 import Register from "./Components/Account/Register.jsx";
 import BangladeshPage from "./Components/AllPAges.jsx/BangladeshPage.jsx";
+import CaseStudy from "./Components/AllPAges.jsx/CaseStudy.jsx";
+import designPage from "./Components/AllPAges.jsx/designPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -40,8 +42,16 @@ const router = createBrowserRouter([
         Component:AssignmentPage
       },
       {
+        path:'/caseStudy',
+        Component:CaseStudy
+      },
+      {
         path:'/bangladesh',
         Component:BangladeshPage
+      },
+      {
+        path:'/design',
+        Component:designPage
       },
     ],
   },

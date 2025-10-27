@@ -39,10 +39,10 @@ const Tab = () => {
                 </NavLink>
 
                 <NavLink
-                  to='/case-study'
+                  to='/caseStudy'
                   className={({ isActive }) =>
                     `px-1 py-1 rounded-xl cursor-pointer ${
-                      isActive ? 'bg-purple-500 text-white' : 'bg-gray-50 hover:bg-purple-500 hover:text-white'
+                      isActive ? 'text-red-700' : 'bg-gray-50 hover:bg-purple-500 hover:text-white'
                     }`
                   }
                 >
@@ -53,7 +53,7 @@ const Tab = () => {
                   to='/design'
                   className={({ isActive }) =>
                     `px-1 py-1 rounded-xl cursor-pointer ${
-                      isActive ? 'bg-purple-500 text-white' : 'bg-gray-50 hover:bg-purple-500 hover:text-white'
+                      isActive ? 'text-red-700' : 'bg-gray-50 hover:bg-purple-500 hover:text-white'
                     }`
                   }
                 >
