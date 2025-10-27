@@ -89,6 +89,13 @@ const Footer = () => {
         <p className="text-center text-sm mt-10">
           Copyright ©2022 Northman All Right Reserved
         </p>
+
+       
+
+
+
+  
+
       </footer>
     </section>
    </footer>
