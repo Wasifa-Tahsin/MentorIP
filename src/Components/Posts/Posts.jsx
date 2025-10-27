@@ -11,7 +11,7 @@ const Posts = () => {
       .then((data) => setPosts(data));
   }, []);
   return (
-    <div className=" mt-15 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 space-y-5">
+    <div className=" mt-15 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 space-y-5 gap-7">
       {posts.map((post) => (
         <Post key={post.id} post={post}></Post>
       ))}
