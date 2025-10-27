@@ -18,7 +18,7 @@ const IPR = () => {
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
         <div className="text-left max-w-2xl">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 text-gray-900">
-            IPR Enforcement
+            IPR Enforcement <span className="text-green-400">•</span>
           </h2>
           <p className="text-[16px] sm:text-[18px] md:text-[20px] text-gray-700 leading-relaxed">
           Enforce your intellectual property rights with confidence. MENTORIP offers comprehensive IPR enforcement services, 

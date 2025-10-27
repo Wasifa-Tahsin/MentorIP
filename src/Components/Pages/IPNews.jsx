@@ -17,7 +17,7 @@ const IPNews = () => {
       {/* Header */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
         <div className="text-left max-w-lg">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3">IP News</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3">IP News <span className="text-green-400">•</span></h2>
           <p className="text-[16px] sm:text-[18px] md:text-[20px] text-gray-700">
           Stay informed with the latest updates in intellectual property law. MENTORIP brings you breaking news, legal changes, 
 global treaties, and industry developments in trademarks, patents, designs, and copyright.

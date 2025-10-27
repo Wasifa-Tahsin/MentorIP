@@ -20,7 +20,7 @@ const TradeMark = () => {
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
         <div className="text-left max-w-2xl">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 text-gray-900">
-            Trademark
+            Trademark <span className="text-green-400">•</span>
           </h2>
           <p className="text-[15px] sm:text-[17px] md:text-[18px] text-gray-700 leading-relaxed">
             Protect your brand identity with expert trademark services from MENTORIP. 
