@@ -30,6 +30,7 @@ import RenewalPage from "./Components/AllPAges.jsx/RenewalPage.jsx";
 import TradeMarkPage from "./Components/AllPAges.jsx/TradeMarkPage.jsx";
 import UtilityModelPage from "./Components/AllPAges.jsx/UtilityModelPage.jsx";
 import About from "./Components/About/About.jsx";
+import OurClients from "./Components/OurClients/OurClients.jsx";
 
 
 
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
       {
         path:'/aboutPage',
         Component:About
+      },
+      {
+        path:'/ourClients',
+        Component:OurClients
       },
       
      

@@ -24,7 +24,7 @@ const Header = () => {
             </div>
 
             <div>
-                <NavLink to='/aboutPage'><h2 className=' bg-gray-200 text-2xl py-2 px-2 rounded-full text-[#B14034]'><LuUser className='' /></h2></NavLink>
+                <NavLink to='/ourClients'><h2 className=' bg-gray-200 text-2xl py-2 px-2 rounded-full text-[#B14034]'><LuUser className='' /></h2></NavLink>
             </div>
         </header>
     );
