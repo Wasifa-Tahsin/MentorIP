@@ -31,6 +31,8 @@ import TradeMarkPage from "./Components/AllPAges.jsx/TradeMarkPage.jsx";
 import UtilityModelPage from "./Components/AllPAges.jsx/UtilityModelPage.jsx";
 import About from "./Components/About/About.jsx";
 import OurClients from "./Components/OurClients/OurClients.jsx";
+import Tags from "./Components/Tags/Tags.jsx";
+import Gallery from "./Components/Gallery/Gallery.jsx";
 
 
 
@@ -52,6 +54,14 @@ const router = createBrowserRouter([
       {
         path:'/ourClients',
         Component:OurClients
+      },
+      {
+        path:'/tags',
+        Component:Tags
+      },
+      {
+        path:'/gallery',
+        Component:Gallery
       },
       
      
