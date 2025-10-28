@@ -27,6 +27,9 @@ import OpossitionPage from "./Components/AllPAges.jsx/OpossitionPage.jsx";
 import PatentPage from "./Components/AllPAges.jsx/PatentPage.jsx";
 import RegistrationPage from "./Components/AllPAges.jsx/RegistrationPage.jsx";
 import RenewalPage from "./Components/AllPAges.jsx/RenewalPage.jsx";
+import TradeMarkPage from "./Components/AllPAges.jsx/TradeMarkPage.jsx";
+import UtilityModelPage from "./Components/AllPAges.jsx/UtilityModelPage.jsx";
+import About from "./Components/About/About.jsx";
 
 
 
@@ -41,6 +44,10 @@ const router = createBrowserRouter([
 
     children: [
       { index: true, Component: HomeLayout },
+      {
+        path:'/aboutPage',
+        Component:About
+      },
       
      
       {
@@ -108,8 +115,16 @@ const router = createBrowserRouter([
         Component:RegistrationPage
       },
       {
-        path:'/renewal ',
+        path:'/renewal',
         Component:RenewalPage
+      },
+      {
+        path:'/trademark',
+        Component:TradeMarkPage
+      },
+      {
+        path:'/utility-model',
+        Component:UtilityModelPage
       },
     ],
   },

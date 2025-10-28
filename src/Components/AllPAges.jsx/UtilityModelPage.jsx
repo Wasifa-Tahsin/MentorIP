@@ -1,21 +1,19 @@
 import React from 'react';
-import RenewalImg from '../../assets/image/Renewal.png'
+import UtilityImg from '../../assets/image/UtilityModel.png'
 
 
-import image2 from '../../assets/image/image box (7).png';
+import image2 from '../../assets/image/image box (6).png';
 import image4 from '../../assets/image/image box (4).png';
-import image5 from '../../assets/image/image box.png';
 
 import DesignPage from '../Pages/DesignPage';
-const RenewalPage = () => {
 
-     const cards = [
+const UtilityModelPage = () => {
+
+    const cards = [
                            
                             { image: image2, title: 'Filing Process', author: 'MENTORIP', location: 'Chittagong', date: '2025-10-26', category: ["Trademark", "Bangladesh"] },
                             { image: image4, title: 'Renewal Tips', author: 'MENTORIP', location: 'Sylhet', date: '2025-10-24', category: ["Trademark", "Bangladesh"] },
-                            { image: image5, title: 'Renewal Tips', author: 'MENTORIP', location: 'Sylhet', date: '2025-10-24', category: ["Trademark", "Bangladesh"] },
                            
-                            
                           ];
     return (
          <section className="container mx-auto px-4 sm:px-6 lg:px-8 mt-20 mb-20">
@@ -23,22 +21,22 @@ const RenewalPage = () => {
         
         {/* Left Text Section */}
         <div className="text-left w-full md:w-1/2">
-        <span>3 posts</span>
+        <span>2 posts</span>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-gray-900">
-            Renewal<span className="text-green-400">•</span>
+            Utility Model<span className="text-green-400">•</span>
           </h2>
           <p className="text-gray-700 text-[15px] sm:text-[17px] md:text-[18px] leading-relaxed">
-        Ensure continued protection of your intellectual property with 
-timely renewals. SUPREMEiP provides full support for trademark, 
-patent, design, and copyright renewals in Bangladesh and 
-worldwide — including reminders, filings, and official compliance.
+       Protect minor or incremental innovations with utility model rights. 
+MENTORIP offers end-to-end services for utility model filing, 
+registration, renewal, and enforcement — especially valuable 
+for inventions with shorter market life or lower inventive steps.
           </p>
         </div>
 
         {/* Right Image Section */}
         <div className="w-full md:w-1/2 flex justify-center md:justify-end">
           <img
-            src={RenewalImg }
+            src={UtilityImg}
             alt="Assignment"
             className="rounded-xl w-full sm:w-[90%] md:w-[500px] lg:w-[650px] h-auto object-cover shadow-md"
           />
@@ -62,4 +60,4 @@ worldwide — including reminders, filings, and official compliance.
     );
 };
 
-export default RenewalPage;
+export default UtilityModelPage;
