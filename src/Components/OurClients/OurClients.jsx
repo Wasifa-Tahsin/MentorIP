@@ -2,10 +2,11 @@ import React from "react";
 import ClientEmojiImg from "../../assets/image/ClientEmoji.png";
 import device from "../../assets/image/AllDevice.png";
 import ContactUs from "../Ui/ContactUs";
+import Menu from "../Menu/Menu";
 
 const OurClients = () => {
   return (
-    <section className="min-h-screen mt-10 px-4 md:px-10">
+    <section className="min-h-screen  px-4 md:px-10">
       {/* Title */}
       <main className="w-full flex flex-col items-center text-left">
         <h2 className="text-2xl md:text-3xl font-bold mb-6 text-gray-800 text-center">
@@ -131,6 +132,7 @@ const OurClients = () => {
         <ContactUs></ContactUs>
 
       </main>
+     
     </section>
   );
 };

@@ -3,7 +3,8 @@ import { NavLink } from 'react-router';
 
 const Tab = () => {
     return (
-        <div className='w-full flex justify-center mt-10 overflow-x-auto'>
+      <section>
+          <div className='w-full flex justify-center mt-10 overflow-x-auto'>
             <nav className='text-[10px] space-x-3 flex'>
                 <NavLink
                   to='/'
@@ -193,6 +194,7 @@ const Tab = () => {
                 </NavLink>
             </nav>
         </div>
+      </section>
     );
 };
 

@@ -5,10 +5,9 @@ const Post = ({ post }) => {
 
   return (
  <section>
-       <div className="max-w-sm bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 p-4">
+       <div className=" bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 p-4">
       <img
         src={image}
-        alt={title}
         className="w-full h-48 object-cover rounded-md mb-4"
       />
       <h2 className="text-left text-xl font-semibold mb-2">{title}</h2>

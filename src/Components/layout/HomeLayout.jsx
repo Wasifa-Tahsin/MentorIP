@@ -22,7 +22,7 @@ const HomeLayout = () => {
     
     return (
         <div>
-          <Banner></Banner>
+          {/* <Banner></Banner> */}
           <Posts></Posts>
 
           <button className='bg-red-700 p-3 m-5 text-white rounded-xl'>Learn More</button>

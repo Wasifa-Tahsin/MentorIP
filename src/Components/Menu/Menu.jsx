@@ -1,0 +1,131 @@
+import React from "react";
+import { NavLink } from "react-router";
+import { LuUser } from "react-icons/lu";
+import {
+  MdOutlineHome,
+  MdOutlineContactMail,
+  MdEvent,
+  MdOutlineMedicalServices,
+} from "react-icons/md";
+import { TfiMenuAlt } from "react-icons/tfi";
+import { RiGalleryLine } from "react-icons/ri";
+
+const Menu = () => {
+  return (
+    <div className="w-64  p-5 text-sm   ">
+      {/* Title */}
+      <div className="flex items-center gap-2 text-gray-700 font-semibold mb-5">
+        <TfiMenuAlt className="text-lg text-[#B14034]" />
+        <span>Menu</span>
+      </div>
+
+      {/* Menu Links */}
+      <ul className="  space-y-3">
+        <li>
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              `flex items-center gap-2 ${
+                isActive ? "text-[#B14034] font-medium" : "text-gray-700"
+              }`
+            }
+          >
+            <MdOutlineHome /> Home
+          </NavLink>
+        </li>
+
+        <li>
+          <NavLink
+            to="/about"
+            className={({ isActive }) =>
+              `flex items-center gap-2 ${
+                isActive ? "text-[#B14034] font-medium" : "text-gray-700"
+              }`
+            }
+          >
+            <LuUser /> About
+          </NavLink>
+        </li>
+
+        <li>
+          <NavLink
+            to="/ourClients"
+            className={({ isActive }) =>
+              `flex items-center gap-2 ${
+                isActive ? "text-[#B14034] font-medium" : "text-gray-700"
+              }`
+            }
+          >
+            <RiGalleryLine /> Clients
+          </NavLink>
+        </li>
+
+        <li>
+          <NavLink
+            to="/services"
+            className={({ isActive }) =>
+              `flex items-center gap-2 ${
+                isActive ? "text-[#B14034] font-medium" : "text-gray-700"
+              }`
+            }
+          >
+            <MdOutlineMedicalServices /> Services
+          </NavLink>
+        </li>
+
+        <li>
+          <NavLink
+            to="/contact"
+            className={({ isActive }) =>
+              `flex items-center gap-2 ${
+                isActive ? "text-[#B14034] font-medium" : "text-gray-700"
+              }`
+            }
+          >
+            <MdOutlineContactMail /> Contact
+          </NavLink>
+        </li>
+
+        <li>
+          <NavLink
+            to="/gallery"
+            className={({ isActive }) =>
+              `flex items-center gap-2 ${
+                isActive ? "text-[#B14034] font-medium" : "text-gray-700"
+              }`
+            }
+          >
+            <RiGalleryLine /> Gallery
+          </NavLink>
+        </li>
+
+        <li>
+          <NavLink
+            to="/event"
+            className={({ isActive }) =>
+              `flex items-center gap-2 ${
+                isActive ? "text-[#B14034] font-medium" : "text-gray-700"
+              }`
+            }
+          >
+            <MdEvent /> Event
+          </NavLink>
+        </li>
+      </ul>
+
+      {/* Tags */}
+      <h3 className="text-gray-500 text-left text-xs mt-8 mb-2 uppercase tracking-wide">
+        Tags
+      </h3>
+      <ul className=" text-left space-y-1 text-gray-700 text-sm">
+        <li>• Trademark</li>
+        <li>• Patent</li>
+        <li>• Utility Model</li>
+        <li>• Design</li>
+        <li>• IPR Enforcement</li>
+      </ul>
+    </div>
+  );
+};
+
+export default Menu;
