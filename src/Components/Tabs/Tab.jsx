@@ -86,7 +86,7 @@ const Tab = () => {
                   to='/ip-laws'
                   className={({ isActive }) =>
                     `px-1 py-1 rounded-xl cursor-pointer ${
-                      isActive ? 'bg-purple-500 text-white' : 'bg-gray-50 hover:bg-purple-500 hover:text-white'
+                      isActive ? 'text-red-700' : 'bg-gray-50 hover:bg-purple-500 hover:text-white'
                     }`
                   }
                 >
@@ -97,7 +97,7 @@ const Tab = () => {
                   to='/ip-news'
                   className={({ isActive }) =>
                     `px-1 py-1 rounded-xl cursor-pointer ${
-                      isActive ? 'bg-purple-500 text-white' : 'bg-gray-50 hover:bg-purple-500 hover:text-white'
+                      isActive ? 'text-red-700' : 'bg-gray-50 hover:bg-purple-500 hover:text-white'
                     }`
                   }
                 >
@@ -108,7 +108,7 @@ const Tab = () => {
                   to='/ipr-enforcement'
                   className={({ isActive }) =>
                     `px-1 py-1 rounded-xl cursor-pointer ${
-                      isActive ? 'bg-purple-500 text-white' : 'bg-gray-50 hover:bg-purple-500 hover:text-white'
+                      isActive ? 'text-red-700' : 'bg-gray-50 hover:bg-purple-500 hover:text-white'
                     }`
                   }
                 >
@@ -119,7 +119,7 @@ const Tab = () => {
                   to='/journal'
                   className={({ isActive }) =>
                     `px-1 py-1 rounded-xl cursor-pointer ${
-                      isActive ? 'bg-purple-500 text-white' : 'bg-gray-50 hover:bg-purple-500 hover:text-white'
+                      isActive ? 'text-red-700' : 'bg-gray-50 hover:bg-purple-500 hover:text-white'
                     }`
                   }
                 >
@@ -130,7 +130,7 @@ const Tab = () => {
                   to='/opposition'
                   className={({ isActive }) =>
                     `px-1 py-1 rounded-xl cursor-pointer ${
-                      isActive ? 'bg-purple-500 text-white' : 'bg-gray-50 hover:bg-purple-500 hover:text-white'
+                      isActive ? 'text-red-700' : 'bg-gray-50 hover:bg-purple-500 hover:text-white'
                     }`
                   }
                 >
@@ -141,7 +141,7 @@ const Tab = () => {
                   to='/patent'
                   className={({ isActive }) =>
                     `px-1 py-1 rounded-xl cursor-pointer ${
-                      isActive ? 'bg-purple-500 text-white' : 'bg-gray-50 hover:bg-purple-500 hover:text-white'
+                      isActive ? 'text-red-700' : 'bg-gray-50 hover:bg-purple-500 hover:text-white'
                     }`
                   }
                 >
@@ -152,7 +152,7 @@ const Tab = () => {
                   to='/registration'
                   className={({ isActive }) =>
                     `px-1 py-1 rounded-xl cursor-pointer ${
-                      isActive ? 'bg-purple-500 text-white' : 'bg-gray-50 hover:bg-purple-500 hover:text-white'
+                      isActive ? 'text-red-700' : 'bg-gray-50 hover:bg-purple-500 hover:text-white'
                     }`
                   }
                 >
@@ -163,7 +163,7 @@ const Tab = () => {
                   to='/renewal'
                   className={({ isActive }) =>
                     `px-1 py-1 rounded-xl cursor-pointer ${
-                      isActive ? 'bg-purple-500 text-white' : 'bg-gray-50 hover:bg-purple-500 hover:text-white'
+                      isActive ? 'text-red-700' : 'bg-gray-50 hover:bg-purple-500 hover:text-white'
                     }`
                   }
                 >
@@ -174,7 +174,7 @@ const Tab = () => {
                   to='/trademark'
                   className={({ isActive }) =>
                     `px-1 py-1 rounded-xl cursor-pointer ${
-                      isActive ? 'bg-purple-500 text-white' : 'bg-gray-50 hover:bg-purple-500 hover:text-white'
+                      isActive ? 'text-red-700' : 'bg-gray-50 hover:bg-purple-500 hover:text-white'
                     }`
                   }
                 >
@@ -185,7 +185,7 @@ const Tab = () => {
                   to='/utility-model'
                   className={({ isActive }) =>
                     `px-1 py-1 rounded-xl cursor-pointer ${
-                      isActive ? 'bg-purple-500 text-white' : 'bg-gray-50 hover:bg-purple-500 hover:text-white'
+                      isActive ? 'text-red-700' : 'bg-gray-50 hover:bg-purple-500 hover:text-white'
                     }`
                   }
                 >

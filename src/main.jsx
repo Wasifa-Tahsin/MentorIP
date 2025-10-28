@@ -19,6 +19,16 @@ import designPage from "./Components/AllPAges.jsx/designPage.jsx";
 import ErrorPage from "./Components/Pages/ErrorPage.jsx";
 import DPDT from "./Components/AllPAges.jsx/DPDT.jsx";
 import FAQPage from "./Components/AllPAges.jsx/FAQPage.jsx";
+import IPLaws from "./Components/AllPAges.jsx/IPLaws.jsx";
+import IPNews from "./Components/AllPAges.jsx/IPNews.jsx";
+import IPRPage from "./Components/AllPAges.jsx/IPRPage.jsx";
+import JournalPage from "./Components/AllPAges.jsx/JournalPage.jsx";
+import OpossitionPage from "./Components/AllPAges.jsx/OpossitionPage.jsx";
+import PatentPage from "./Components/AllPAges.jsx/PatentPage.jsx";
+import RegistrationPage from "./Components/AllPAges.jsx/RegistrationPage.jsx";
+import RenewalPage from "./Components/AllPAges.jsx/RenewalPage.jsx";
+
+
 
 const router = createBrowserRouter([
   {
@@ -68,6 +78,38 @@ const router = createBrowserRouter([
       {
         path:'/FAQ',
         Component:FAQPage
+      },
+      {
+        path:'/ip-laws',
+        Component:IPLaws
+      },
+      {
+        path:'/ip-news',
+        Component:IPNews
+      },
+      {
+        path:'/ipr-enforcement',
+        Component:IPRPage
+      },
+      {
+        path:'/journal',
+        Component:JournalPage
+      },
+      {
+        path:'/opposition',
+        Component:OpossitionPage
+      },
+      {
+        path:'/patent',
+        Component:PatentPage
+      },
+      {
+        path:'/registration',
+        Component:RegistrationPage
+      },
+      {
+        path:'/renewal ',
+        Component:RenewalPage
       },
     ],
   },
