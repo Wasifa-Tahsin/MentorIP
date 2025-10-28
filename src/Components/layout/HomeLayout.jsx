@@ -12,6 +12,7 @@ import IP from '../Pages/IP';
 import Bangladesh from '../Pages/Bangladesh';
 import IPNews from '../Pages/IPNews';
 import Registration from '../Pages/Registration';
+import DPDT from '../AllPAges.jsx/DPDT';
 
 
 
@@ -36,6 +37,8 @@ const HomeLayout = () => {
           <Bangladesh></Bangladesh>
           <IPNews></IPNews>
           <Registration></Registration>
+        
+          
            
         </div>
     );

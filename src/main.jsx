@@ -16,14 +16,22 @@ import Register from "./Components/Account/Register.jsx";
 import BangladeshPage from "./Components/AllPAges.jsx/BangladeshPage.jsx";
 import CaseStudy from "./Components/AllPAges.jsx/CaseStudy.jsx";
 import designPage from "./Components/AllPAges.jsx/designPage.jsx";
+import ErrorPage from "./Components/Pages/ErrorPage.jsx";
+import DPDT from "./Components/AllPAges.jsx/DPDT.jsx";
+import FAQPage from "./Components/AllPAges.jsx/FAQPage.jsx";
 
 const router = createBrowserRouter([
+  {
+        path:'*',
+        Component:ErrorPage
+      },
   {
     path: "/",
     Component: Root,
 
     children: [
       { index: true, Component: HomeLayout },
+      
      
       {
         path: "/login",
@@ -52,6 +60,14 @@ const router = createBrowserRouter([
       {
         path:'/design',
         Component:designPage
+      },
+      {
+        path:'/dpdt',
+        Component:DPDT
+      },
+      {
+        path:'/FAQ',
+        Component:FAQPage
       },
     ],
   },
