@@ -62,7 +62,7 @@ const Menu = () => {
 
         <li>
           <NavLink
-            to="/services"
+            to="/service"
             className={({ isActive }) =>
               `flex items-center gap-2 ${
                 isActive ? "text-[#B14034] font-medium" : "text-gray-700"

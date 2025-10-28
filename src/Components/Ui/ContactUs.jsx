@@ -5,7 +5,7 @@ import connectImg from "../../assets/image/connect.png";
 const ContactUs = () => {
     return (
         <section>
-            <div className="mt-10 space-y-4">
+            <div className="mt-10 space-y-4 text-left">
             <h2 className="text-lg md:text-xl font-semibold">📩 Contact Us</h2>
             <p>
               We would be delighted to assist you with your intellectual

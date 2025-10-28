@@ -34,6 +34,8 @@ import OurClients from "./Components/OurClients/OurClients.jsx";
 import Tags from "./Components/Tags/Tags.jsx";
 import Gallery from "./Components/Gallery/Gallery.jsx";
 import Event from "./Components/Event/Event.jsx";
+import Contact from "./Components/Contact/Contact.jsx";
+import Service from "./Components/Service/Service.jsx";
 
 
 
@@ -67,6 +69,14 @@ const router = createBrowserRouter([
       {
         path:'/event',
         Component:Event
+      },
+      {
+        path:'/service',
+        Component:Service
+      },
+      {
+        path:'/contact',
+        Component:Contact
       },
       
      
