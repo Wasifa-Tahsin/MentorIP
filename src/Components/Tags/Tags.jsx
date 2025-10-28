@@ -12,7 +12,7 @@ import Registration from "../Pages/Registration";
 
 const Tags = () => {
   return (
-    <section className="py-10 mt-10 ">
+    <section className="py-10  ">
       <div className=" px-4 text-left flex flex-col gap-4">
         {/* Heading */}
         <h2 className="text-2xl md:text-3xl font-bold text-black">

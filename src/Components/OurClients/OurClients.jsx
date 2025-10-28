@@ -6,7 +6,7 @@ import Menu from "../Menu/Menu";
 
 const OurClients = () => {
   return (
-    <section className="min-h-screen  px-4 md:px-10">
+    <section className="min-h-screen mt-10  px-4 md:px-10">
       {/* Title */}
       <main className="w-full flex flex-col items-center text-left">
         <h2 className="text-2xl md:text-3xl font-bold mb-6 text-gray-800 text-center">

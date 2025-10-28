@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import { LuUser } from "react-icons/lu";
 import {
   MdOutlineHome,
@@ -36,7 +36,7 @@ const Menu = () => {
 
         <li>
           <NavLink
-            to="/about"
+            to="/aboutPage"
             className={({ isActive }) =>
               `flex items-center gap-2 ${
                 isActive ? "text-[#B14034] font-medium" : "text-gray-700"
@@ -115,7 +115,7 @@ const Menu = () => {
 
       {/* Tags */}
       <h3 className="text-gray-500 text-left text-xs mt-8 mb-2 uppercase tracking-wide">
-        Tags
+       <Link to='/tags'> <button className="bg-gray-100 rounded-xl cursor-pointer p-2 text-shadow-2xs text-gray-900">Tags</button></Link>
       </h3>
       <ul className=" text-left space-y-1 text-gray-700 text-sm">
         <li>• Trademark</li>

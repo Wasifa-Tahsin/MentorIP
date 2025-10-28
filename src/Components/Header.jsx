@@ -35,7 +35,7 @@ const Header = () => {
 
         {/* Right: User Icon */}
         <div className="flex-shrink-0">
-          <NavLink to="/gallery">
+          <NavLink to="/login">
             <h2 className="bg-gray-200 text-2xl p-2 rounded-full text-[#B14034] hover:bg-gray-300 transition">
               <LuUser />
             </h2>

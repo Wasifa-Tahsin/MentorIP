@@ -33,6 +33,7 @@ import About from "./Components/About/About.jsx";
 import OurClients from "./Components/OurClients/OurClients.jsx";
 import Tags from "./Components/Tags/Tags.jsx";
 import Gallery from "./Components/Gallery/Gallery.jsx";
+import Event from "./Components/Event/Event.jsx";
 
 
 
@@ -62,6 +63,10 @@ const router = createBrowserRouter([
       {
         path:'/gallery',
         Component:Gallery
+      },
+      {
+        path:'/event',
+        Component:Event
       },
       
      
