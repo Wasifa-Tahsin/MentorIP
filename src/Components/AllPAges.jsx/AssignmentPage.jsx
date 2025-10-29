@@ -20,8 +20,8 @@ const AssignmentPage = () => {
 
 
   return (
-    <section className="container mx-auto px-4 sm:px-6 lg:px-8 mt-20 mb-20">
-      <div className="flex flex-col md:flex-row justify-between items-center gap-10">
+    <section className="container mx-auto px-4 sm:px-6 lg:px-8 mt-5 mb-20">
+      <div className=" max-w-4xl mx-auto flex  flex-col md:flex-row justify-between items-center gap-10">
         
         {/* Left Text Section */}
         <div className="text-left w-full md:w-1/2">
@@ -52,7 +52,7 @@ const AssignmentPage = () => {
     
 
       {/* Card Section */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-20">
+      <div className="mt-30 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
         {cards.map((card, idx) => (
           <DesignPage key={idx} {...card} />
         ))}

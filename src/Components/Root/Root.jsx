@@ -18,25 +18,30 @@ const Root = () => {
       <Header></Header>
 
      {/* <Tab></Tab> */}
-      <div className="flex justify-between  container mx-auto px-4 py-6">
-        <Menu></Menu>
+ <div className="container mx-auto">
+  {/* Grid part: Menu + Banner + Tab */}
+  <div className="grid grid-cols-[auto_1fr]">
+    <Menu />
 
-      
-     <div className="flex-1">
-  <Tab />
-  {isHome ? (
-    <div>
-      <Banner />
-      {/* 👇 Home layout content */}
-      <HomeLayout />
+    <div className="w-full">
+      <Tab />
+      {isHome && <Banner />}
     </div>
+  </div>
+
+  {/* HomeLayout separate full width section */}
+  {isHome ? (
+    <HomeLayout />
   ) : (
-    <Outlet />
+    // ✅ Adjusted Outlet position to remove banner gap
+    <div className="-mt-[350px] w-full ">
+      <Outlet />
+    </div>
   )}
 </div>
 
 
-      </div>
+
 
       
 

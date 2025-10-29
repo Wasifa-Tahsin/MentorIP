@@ -41,13 +41,13 @@ const Gallery = () => {
   ];
 
   return (
-    <section className="container mx-auto px-4 py-10">
+    <section className="max-w-4xl mx-auto px-4 py-10">
       <main>
         {/* Header Section */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
           {/* Left Section */}
           <div className="flex flex-col">
-            <h1 className="text-xl md:text-2xl font-bold text-gray-900 leading-snug">
+            <h1 className="text-xl md:text-2xl text-left font-bold text-gray-900 leading-snug">
               NGB Corporation, Japan Team Visits MENTORIP Law Firm in Bangladesh
             </h1>
 

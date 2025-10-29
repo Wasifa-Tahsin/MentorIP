@@ -4,6 +4,7 @@ import { IoSearchOutline } from "react-icons/io5";
 import { MdEdit, MdMenu } from "react-icons/md";
 import { LuUser } from "react-icons/lu";
 import { NavLink } from "react-router";
+import { TfiMenuAlt } from "react-icons/tfi";
 
 
 
@@ -17,7 +18,8 @@ const Header = () => {
        
 
         {/* Logo */}
-        <div className="flex-shrink-0">
+        <div className="flex items-center gap-3">
+          <TfiMenuAlt></TfiMenuAlt>
           <img className="h-10 w-auto" src={headerLogo} alt="Company Logo" />
         </div>
 

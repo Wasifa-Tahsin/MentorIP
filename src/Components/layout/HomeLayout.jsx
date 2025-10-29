@@ -21,7 +21,7 @@ const HomeLayout = () => {
    
     
     return (
-        <div>
+        <div className='w-7xl mx-auto'>
           {/* <Banner></Banner> */}
           <Posts></Posts>
 

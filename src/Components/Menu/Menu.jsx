@@ -12,12 +12,8 @@ import { RiGalleryLine } from "react-icons/ri";
 
 const Menu = () => {
   return (
-    <div className="w-64  p-5 text-sm   ">
-      {/* Title */}
-      <div className="flex items-center gap-2 text-gray-700 font-semibold mb-5">
-        <TfiMenuAlt className="text-lg text-[#B14034]" />
-        <span>Menu</span>
-      </div>
+    <div className=" p-2 mt-7  text-sm   ">
+     
 
       {/* Menu Links */}
       <ul className="  space-y-3">
