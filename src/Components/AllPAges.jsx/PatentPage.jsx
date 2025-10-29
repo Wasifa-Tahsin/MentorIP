@@ -50,7 +50,7 @@ const PatentPage = () => {
 
     return (
        <section className="container mx-auto px-4 sm:px-6 lg:px- mt-20 mb-20">
-      <div className="flex flex-col md:flex-row justify-between items-center gap-10">
+      <div className=" max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center gap-10">
         
         {/* Left Text Section */}
         <div className="text-left w-full md:w-1/2">
