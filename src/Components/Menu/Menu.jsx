@@ -7,12 +7,13 @@ import {
   MdEvent,
   MdOutlineMedicalServices,
 } from "react-icons/md";
-import { TfiMenuAlt } from "react-icons/tfi";
+
 import { RiGalleryLine } from "react-icons/ri";
 
 const Menu = () => {
   return (
-    <div className=" p-2 mt-7  text-sm   ">
+    <div className="w-64  p-5 text-sm   ">
+      {/* Title */}
      
 
       {/* Menu Links */}

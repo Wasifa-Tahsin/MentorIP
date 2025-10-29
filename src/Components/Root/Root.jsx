@@ -17,14 +17,14 @@ const Root = () => {
     <div>
       <Header></Header>
 
-     {/* <Tab></Tab> */}
+     <Tab></Tab>
  <div className="container mx-auto">
   {/* Grid part: Menu + Banner + Tab */}
   <div className="grid grid-cols-[auto_1fr]">
     <Menu />
 
     <div className="w-full">
-      <Tab />
+     
       {isHome && <Banner />}
     </div>
   </div>
