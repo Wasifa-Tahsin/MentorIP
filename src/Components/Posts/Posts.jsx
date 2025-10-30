@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-
 import Post from "./Post";
 
 const Posts = () => {
@@ -10,10 +9,11 @@ const Posts = () => {
       .then((res) => res.json())
       .then((data) => setPosts(data));
   }, []);
+
   return (
-    <div className=" mt-15 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 space-y-5 gap-7">
+    <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
       {posts.map((post) => (
-        <Post key={post.id} post={post}></Post>
+        <Post key={post.id} post={post} />
       ))}
     </div>
   );
