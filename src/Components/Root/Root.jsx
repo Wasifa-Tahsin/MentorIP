@@ -3,7 +3,7 @@ import Header from "../Header";
 import Footer from "../Footer";
 
 import { Outlet,  useLocation,  useNavigation } from "react-router";
-import Tab from "../Tabs/Tab";
+// import Tab from "../Tabs/Tab";
 import Menu from "../Menu/Menu";
 import Banner from "../Ui/Banner";
 import HomeLayout from "../layout/HomeLayout";
@@ -21,7 +21,9 @@ const Root = () => {
  <div className="container mx-auto">
   {/* Grid part: Menu + Banner + Tab */}
   <div className="grid grid-cols-[auto_1fr]">
-    <Menu />
+    <div className="hidden lg:block">
+      <Menu />
+    </div>
 
     <div className="w-full">
      
@@ -34,7 +36,7 @@ const Root = () => {
     <HomeLayout />
   ) : (
     // ✅ Adjusted Outlet position to remove banner gap
-    <div className="-mt-[350px] w-full ">
+    <div className="lg:-mt-[350px] w-full ">
       <Outlet />
     </div>
   )}

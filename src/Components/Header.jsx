@@ -66,7 +66,9 @@ const Header = () => {
 
       {/* Tabs Section */}
       {/* Desktop tabs */}
-     <Tab/>
+     <div className="hidden md:block">
+      <Tab/>
+     </div>
 
       {/* Mobile tabs (hamburger menu) */}
       {menuOpen && (
