@@ -6,7 +6,7 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 import logo from "../assets/image/logo.png";
-import "./style.css";
+
 
 const Footer = () => {
   return (
