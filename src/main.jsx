@@ -41,7 +41,7 @@ import Service from "./Components/Service/Service.jsx";
 
 const router = createBrowserRouter([
   {
-        path:'*',
+        path:'*', 
         Component:ErrorPage
       },
   {
